@@ -25,8 +25,6 @@ public class Calculadora {
             System.out.print(" Introdueix una opció (0,1,2,3,o 4): ");
             operacio = input.nextInt();
             
-            
-            
             if(operacio==0){
                 sortir = true;
             }
@@ -51,11 +49,8 @@ public class Calculadora {
                 }
                 System.out.println("Resultat és: "+resultat);
             }
-            
-            
+               
         }
-        
-        
         
     }
 
